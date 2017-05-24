@@ -1,0 +1,94 @@
+.icon-header-about
+{
+	font-size: 26px;
+	margin-top: 2px;
+}
+
+#div-about-header 
+{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#div-about-text1 
+{
+    text-align: center;
+    color: #808080;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#div-hh-title-container
+{
+    margin-bottom: -10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#img-logo-hacks-hackers 
+{
+    width: 200px;
+    border-radius: 10px;
+}
+
+#div-about-rosario 
+{
+    font-size: 42px;
+    font-weight: bolder;
+    margin-bottom: 18px;
+    margin-top: 20px;
+    vertical-align: 13px;
+    color: black;
+    font-family: OpenSansRMA,Arial,sans-serif;
+}
+
+#div-about-text2 
+{
+	color: gray;
+	font-size: 20px;
+	margin-left: 14px;
+	margin-top: 37px;
+	text-align: center;
+	margin-bottom: -21px;
+}
+
+.icon-user-members
+{
+	font-size: 24px;
+}
+
+.div-name-user-members
+{
+	margin-left: -17px;
+}
+
+.icon-close-about
+{
+	font-size: 32px;
+}
+
+#img-logo-app
+{
+	width: 111px;
+	margin-top: 10px;
+	margin-bottom: 21px;
+}
+
+#div-members-container
+{
+	margin-bottom: 13px;
+}
+
+#spn-title-app-about
+{
+    font-size: 28px;
+    text-shadow: 1px 1px 1px gray;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+

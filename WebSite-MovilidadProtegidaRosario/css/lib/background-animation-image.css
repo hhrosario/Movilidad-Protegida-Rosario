@@ -1,0 +1,82 @@
+/* ################################################################################# */
+/* ########################## BACKGROUND ANIMATION IMAGE ########################### */
+/* ################################################################################# */
+
+/* The outermost element*/
+.header-wrapper 
+{
+  	overflow: hidden;
+  	width:auto;
+  	height:150px;
+  	text-align:center;
+}
+
+.zoominheader 
+{
+  	width:auto;
+  	height:150px;
+  	text-align:center;
+	background-image: url("../../img/header-menu.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+  	position: relative;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	-webkit-animation: zoomin 20s ease-in infinite;
+  	animation: zoomin 20s ease-in infinite;
+  	transition: all .10s ease-in-out;
+  	-webkit-transition: all .10s ease-in-out;
+  	overflow: hidden;
+}
+
+/* The innermost element*/
+.zoomoutheader 
+{
+  	width:auto;
+  	height:150px;
+  	text-align:center;
+  	background: none;
+  	-webkit-animation: zoomout 20s ease-in infinite;
+  	animation: zoomout 20s ease-in infinite;
+  	transition: all .10s ease-in-out;
+  	-webkit-transition: all .10s ease-in-out;
+  	overflow: hidden;
+}
+
+
+
+/* Zoom in Keyframes */
+@-webkit-keyframes zoomin 
+{
+  	0% {transform: scale(1); -webkit-transform: scale(1);}
+  	50% {transform: scale(1.5); -webkit-transform: scale(1.5);}
+  	100% {transform: scale(1); -webkit-transform: scale(1);}
+}
+
+@keyframes zoomin 
+{
+  	0% {transform: scale(1); -webkit-transform: scale(1);}
+  	50% {transform: scale(1.5); -webkit-transform: scale(1.5);}
+  	100% {transform: scale(1); -webkit-transform: scale(1);}
+} 
+
+
+
+/* Zoom out Keyframes */
+@-webkit-keyframes zoomout 
+{
+  	0% {transform: scale(1); -webkit-transform: scale(1);}
+  	50% {transform: scale(0.67); -webkit-transform: scale(0.67);}
+  	100% {transform: scale(1); -webkit-transform: scale(1);}
+}
+@keyframes zoomout 
+{
+    0% {transform: scale(1); -webkit-transform: scale(1);}
+  	50% {transform: scale(0.67); -webkit-transform: scale(0.67);}
+  	100% {transform: scale(1); -webkit-transform: scale(1);}
+}
+
+
+

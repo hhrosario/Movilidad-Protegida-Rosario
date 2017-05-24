@@ -1,0 +1,63 @@
+<!-- NAVBAR -->
+<div class="navbar">
+	<div class="navbar-inner">
+		<div class="left">
+			<!--<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>-->
+		</div>
+		<div class="center sliding">
+			<!--<i class="fa fa-car icon-header-check-car"></i>-->
+        	<span id="lblHeaderCapture" class="spnHeader"></span>
+		</div>
+		<div class="right">
+			<a href="#page-about"> <i class="fa fa-info-circle animated infinite pulse icon-about"></i></a>
+		</div>
+	</div>
+</div>
+
+<!-- PAGE -->
+<div class="page-content">
+
+	<!-- IDIOMA -->
+	<div id="div-car-type-container" class="list-block list-block-shadow inset">
+	  <ul>
+		<li>
+		  <div class="item-content div-border-gray-container">
+			<div class="item-inner" onClick="openModalCarType()">
+			  <div id="div-car-type">Tipo de Vehículo</div>
+			</div>
+			<img src="img/car-type/blue/car_blue.png" id="icon-car-type-selected" onClick="openModalCarType()"> 
+		  </div>
+		</li>
+	  </ul>
+	</div>
+
+	<!-- PATENTE -->
+	<div id="div-patent-container" class="list-block inset list-block-shadow">
+	    <ul>
+	        <li class="item-content item-content-search-patent">
+				<div class="item-inner item-inner-search-patent">
+					<div class="item-title floating-label">Patente</div>
+					<div id="item-input-patent" class="item-input item-input-field">
+						<input id="txt-patent" placeholder="" value="" class="" type="search" />
+							<a href="" id="btn-search-patent" onClick="searchPatent()">
+								<i  class="fa fa-search icon-fa-input-button" aria-hidden="true"></i>
+							</a>
+					</div>
+				</div>
+	        </li>
+	    </ul>
+	</div>
+	
+	<!-- RESULTADO DE LA BÚSQUEDA -->
+	<div id="div-container-information-result" class="list-block list-block-shadow inset"></div>
+	<div id="div-clain-147-container">
+		<span>Para realizar tu reclamo podes comunicarte durante las 24 hs. al número gratuito del Ente de Movilidad de Rosario</span>
+		<br>
+		<span id="spn-call-movilidad">(presione sobre la imagen para llamar)</span>
+		<div id="div-logo-movilidad-container" onClick="openPhoneCaller('147')">
+			<img src="img/logo-movilidad.png" id="img-logo-movilidad" class="animated infinite tada">
+		</div>
+	</div>
+	
+</div>
+

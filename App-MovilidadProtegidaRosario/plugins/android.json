@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.rma.movilidadprotegida"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.rma.movilidadprotegida"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.rma.movilidadprotegida"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.rma.movilidadprotegida"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.rma.movilidadprotegida"
+        },
+        "org.apache.cordova.core.AudioHandler": {
+            "PACKAGE_NAME": "com.rma.movilidadprotegida"
+        }
+    },
+    "dependent_plugins": {}
+}

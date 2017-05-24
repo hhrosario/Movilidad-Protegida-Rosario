@@ -1,0 +1,90 @@
+@font-face 
+{
+    font-family: "OpenSansRMA";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+/*######################### STYLE MENU #########################*/
+
+.navbar
+{
+    background: #0F77FF;
+}
+
+.panel
+{
+    background-color: #333;
+    color: #FFFFFF !important;
+}
+
+.panel-left .list-block
+{
+    margin: 20px 0px 5px 0px
+}
+
+.list-block ul#ulListMenu 
+{
+    background: transparent;
+}
+
+.panel .list-block .item-link .item-inner
+{
+    background: transparent none repeat scroll 0% 0%;
+    border-bottom: 0px none;
+}
+
+.activeStateMenu
+{
+    background: rgb(94, 96, 105) !important;
+}
+/*######################### END STYLE MENU #########################*/
+
+
+
+
+/*######################### STYLE HEADER #########################*/
+
+.navbar:not(.navbar-claimlist),
+.searchbar
+{
+	color: #FFF;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .center
+{
+    white-space: normal;
+    line-height: 31px;
+    display: flex;
+}
+
+.spnHeader
+{
+    margin-left: 10px;
+}
+
+.navbar .button
+{
+	line-height: 28px;
+}
+
+/*######################### END STYLE HEADER #########################*/
+
+.page 
+{
+    background: #efeff4;
+}
+
+.list-block-shadow ul
+{
+	box-shadow: 0 2px 4px rgba(0,0,0,.4) !important;
+}
+
+.icon-about
+{
+	color: white;
+	font-size: 35px;
+	margin-right: 10px;
+	padding-right: 10px;
+	margin-top: 2px;
+}

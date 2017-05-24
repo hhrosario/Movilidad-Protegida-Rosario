@@ -1,0 +1,252 @@
+#page-check-car .list-block.inset 
+{
+    background: #fff;
+}
+
+#item-input-patent
+{
+	margin-left: 0px;
+}
+
+.item-inner-search-patent
+{
+	padding-right: 0px;
+}
+
+li.item-content-search-patent
+{
+	padding: 9px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}
+
+#txt-patent
+{
+	font-size: 27px;
+}
+
+#btn-search-patent
+{
+	position: absolute;
+	width: 56px;
+	height: 100%;
+	right: -16px;
+	top: 0;
+}
+
+.icon-header-check-car
+{
+	margin-top: 5px;
+}
+
+#div-car-type-container
+{
+	margin-top: 15px;
+}
+
+#div-patent-container
+{
+	margin-top: -15px;
+}
+
+#div-car-type-container ul li
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #A7A7A7;
+}
+
+#icon-car-type
+{
+	font-size: 22px;
+	color: #2196F3;
+	margin-right: 38px;
+}
+
+#icon-close-car-type
+{
+	margin-left: 59px;
+	font-size: 28px;
+	color: gray;
+}
+
+#div-car-type-container.list-block .item-link .item-inner 
+{
+    background-image: none !important;
+}
+
+.item-icon-car-type-container
+{
+	margin-left: -12px;
+	margin-right: -18px;
+}
+
+.patent-search-results-label
+{
+    font-size: 12px !important;
+    margin-left: 0 !important;
+}
+
+.patent-search-results-value 
+{
+    font-size: 15px !important;
+}
+
+.img-success,
+.img-error
+{
+	width: 50px;
+}
+
+#div-enabled-car-label
+{
+	font-size: 30px;
+	color: #5BC793;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#div-disabled-car-label
+{
+	font-size: 30px;
+	color: #FF4949;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#div-container-information-result
+{
+	margin-top: -13px;
+}
+
+#div-container-information-result ul li table
+{
+	margin-top: 5px;
+}
+
+#div-clain-147-container
+{
+	margin-top: -20px;
+	padding: 16px;
+	font-size: 14px;
+	color: gray;
+	text-align: center;
+	padding-top: 7px;
+	display: none;
+}
+
+#div-logo-movilidad-container
+{
+	margin-top: 20px;
+}
+
+#img-logo-movilidad
+{
+	width: 150px;
+}
+
+#spn-call-movilidad
+{
+	font-weight: bold;
+	color: #EC6707;
+}
+
+i.icon-fa-input-button 
+{
+    text-align: center;
+    font-size: 27px;
+    width: 30px;
+	color: #0F77FF;
+}
+
+.img-main-menu 
+{
+    width: 100%;
+    height: auto;
+}
+
+.item-menu-icon-check-car
+{
+	font-size: 24px;
+}
+
+.item-menu-icon-about
+{
+	font-size: 30px;
+}
+
+.panel-left .list-block 
+{
+    margin: 20px 0px 5px 0px;
+    margin-top: 0px;
+}
+
+.div-more-details
+{
+	color: black !important;
+	font-size: 12px !important;
+	font-style: italic;
+	margin-left: 2px !important;
+	white-space: normal !important;
+}
+
+.icon-item-list
+{
+	margin-top: -4px;
+}
+
+.div-item-list-car-type
+{
+	padding-top: 0px !important;
+}
+
+#div-car-type-container-modal
+{
+	margin-bottom: -10px;
+	margin-top: 10px;
+}
+
+#div-car-type-container-modal .item-title
+{
+	margin-top: 5px;
+}
+
+.lnk-datos-rosario
+{
+	/*font-size: 17px;*/
+}
+
+#spn-title-modal
+{
+	color: #2196F3;
+}
+
+.icon-car-type-item-list
+{
+	width: 30px;
+	margin-left: -3px;
+}
+
+#icon-car-type-selected
+{
+	width: 30px;
+	margin-right: 36px;
+}
+
+.item-inner.item-inner-search-patent.focus-state .item-title.floating-label 
+{
+    color: #0F77FF;
+}
+
+.focus-state .item-input-field::after
+{
+    background: #0F77FF;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration 
+{
+  display: none;
+}

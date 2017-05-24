@@ -1,0 +1,38 @@
+﻿[
+	{
+	    "idCarType": "1",
+	    "descripcionCarType": "Taxi",
+	    "moreDetails": "Traslado de pasajeros",
+	    "imgUrl": "img/car-type/black/1_taxi.png",
+	    "imgUrlBlue": "img/car-type/blue/1_taxi_blue.png"
+	},
+	{
+	    "idCarType": "2",
+	    "descripcionCarType": "Remis",
+	    "moreDetails": "Traslado de pasajeros",
+	    "imgUrl": "img/car-type/black/2_remis.png",
+	    "imgUrlBlue": "img/car-type/blue/2_remis_blue.png"
+	},
+	{
+	    "idCarType": "3",
+	    "descripcionCarType": "Transporte Escolar",
+	    "moreDetails": "Traslado de niños a establecimientos educativos",
+	    "imgUrl": "img/car-type/black/3_transporte_escolar.png",
+	    "imgUrlBlue": "img/car-type/blue/3_transporte_escolar_blue.png"
+	},
+	{
+	    "idCarType": "4",
+	    "descripcionCarType": "Transporte Especial",
+	    "moreDetails": "Recorridos específicos con fines concretos (trabajo, recreación)",
+	    "imgUrl": "img/car-type/black/4_transporte_especial.png",
+	    "imgUrlBlue": "img/car-type/blue/4_transporte_especial_blue.png"
+	},
+	{
+	    "idCarType": "5",
+	    "descripcionCarType": "Transporte Accesible",
+	    "moreDetails": "Traslado de personas con discapacidad",
+	    "imgUrl": "img/car-type/black/5_transporte_accesible.png",
+	    "imgUrlBlue": "img/car-type/blue/5_transporte_accesible_blue.png"
+	}
+]
+

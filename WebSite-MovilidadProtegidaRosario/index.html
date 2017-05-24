@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <!-- Required meta tags-->
+	    <meta charset="utf-8">
+	    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+	    
+	    <title id="lblTitleApp"></title>
+	    
+	    <!-- Path to Framework7 iOS CSS theme styles-->
+	    <link rel="stylesheet" href="css/lib/framework7/css/framework7.material.min.css">
+	    <link rel="stylesheet" href="css/lib/framework7/css/framework7.material.colors.min.css">
+	    
+	    <!-- Path to Animate css -->
+	    <link rel="stylesheet" href="css/lib/animate.min.css">
+	    <link rel="stylesheet" href="css/lib/background-animation-image.css">
+	    <link rel="stylesheet" href="css/lib/read-more-less.css">
+	    <link rel="stylesheet" href="css/lib/toast/toast.css">
+	    <link rel="stylesheet" href="css/font-awesome.css">
+	    
+	    <!-- Path to your custom app styles-->
+	    <link rel="stylesheet" href="css/common.css">
+	    <link rel="stylesheet" href="css/pages/page-check-car.css">
+	    <link rel="stylesheet" href="css/pages/page-about.css">
+	</head>
+	
+	<body>
+	    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+	    <div class="statusbar-overlay"></div>
+	    <!-- Panels overlay-->
+	    <div class="panel-overlay"></div>
+	    <!-- Left panel with reveal effect-->
+	    <div class="panel panel-left panel-reveal">
+	    
+	    	<!-- Imagen ZoomIn-ZoomOut -->
+			<div class="header-wrapper">
+			  <div class="zoominheader">
+				<div class="zoomoutheader">
+				</div>
+			  </div>
+			</div>
+		  
+			<!--<img src="img/header-menu.png" class="img-main-menu"> -->
+
+	      <div class="list-block">
+	      	<div class="list-group">
+				  <ul id="ulListMenu">
+				    <li id="liCheckCarItemMenu">
+				      <a href="#page-check-car" class="item-link item-content close-panel">
+				        <div class="item-media">
+							<i class="fa fa-car item-menu-icon-check-car"></i>
+						</div>
+				        <div class="item-inner">
+				          <div id="lblMnuCapture" class="item-title"></div>
+				        </div>
+				      </a>
+				    </li>
+				    
+				    <li id="liAboutItemMenu">
+				      <a href="#page-about" class="item-link item-content close-panel">
+				        <div class="item-media">
+							<i class="fa fa-info-circle item-menu-icon-about"></i>
+						</div>
+				        <div class="item-inner">
+				          <div id="lblMnuAbout" class="item-title"></div>
+				        </div>
+				      </a>
+				    </li>
+				    
+				  </ul>
+			  </div>
+			</div>
+<!--			<div id="div-img-mnu-logo-rma">
+				<div>Desarrollado en el marco del</div>
+				<div>1° Hackaton 2017</div>
+				<img src="img/logo-hacks-hackers.jpg" alt="Logo App" id="img-mnu-logo-rma" />
+			</div>-->
+	    </div>
+	    <!-- Views -->
+	    <div class="views">
+	    	<!-- Your main view, should have "view-main" class -->
+	    	<div class="view view-main">
+		        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+		        <div class="pages navbar-fixed">
+					
+			  		<!-- ################################################################################################### -->
+			        <!--                                                   CAPTURE                                                -->
+			        <!-- ################################################################################################### -->
+			  		<div data-page="page-check-car" id="page-check-car" class="page"></div>
+			  		
+			  		<!-- ################################################################################################### -->
+			        <!--                                                   ABOUT                                                -->
+			        <!-- ################################################################################################### -->
+			  		<div data-page="page-about" id="page-about" class="page cached"></div>
+			  		
+				</div>
+			</div>
+	    </div>
+	    
+		<!-- Path Library-->
+		<script type="text/javascript" src="js/lib/jquery-3.min.js"></script>
+		<script type="text/javascript" src="js/lib/framework7/framework7.min.js"></script>
+		<script type="text/javascript" src="js/lib/toast/toast.js"></script>
+		
+		<!-- Path to your app js-->
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/pages/page-check-car.js"></script>
+		<script type="text/javascript" src="js/pages/page-about.js"></script>
+		
+	</body>
+</html>
